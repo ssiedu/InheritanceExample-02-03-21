@@ -19,5 +19,6 @@ public class EngStud extends Stud{
         s.setEngInfo("CS", 4);
         s.showPersonalInfo();
         s.showEngInfo();
+        s.result(40);
     }
 }
