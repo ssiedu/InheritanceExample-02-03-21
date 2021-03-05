@@ -1,8 +1,12 @@
 public class Stud {
-    int rno;
-    String name;
+    private int rno;
+    private String name;
     
-    final double PI=3.14;
+    public Stud(){}
+    public Stud(int rno, String name){
+        this.rno=rno;
+        this.name=name;
+    }
     
     public void setPersonalInfo(int rno, String name){
         this.rno=rno;
