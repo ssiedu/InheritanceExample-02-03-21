@@ -6,6 +6,6 @@ public class NonChildWithInPkg {
         System.out.println(ob.a);
         System.out.println(ob.b);
         System.out.println(ob.c);
-        System.out.println(ob.d);
+        //System.out.println(ob.d);
     }
 }
